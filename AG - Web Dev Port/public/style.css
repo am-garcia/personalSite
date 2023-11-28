@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem; /* 16px = 100% = 1em "r"em is just the root, unaffected by parents*/
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: #66BFBF;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+a {
+    color: #147073;
+}
+.top-container {
+    background-color: #EDF1D6;
+    position: relative;
+    padding-top: 100px;
+}
+/* 
+.top-mid-container {
+    background-color: #9DC08B;
+}
+.bottom-mid-container {
+    background-color: #609966;
+}
+.bottom-container {
+    background-color: #40513B;
+    margin-top: 0; 
+}*/
+.mountain-img {
+    margin-bottom: 0;
+}
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top:50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+.flat-icon-coder {
+    height: 200px;
+}
+.flat-icon-coffee {
+    height: 60px;
+}
+.intro-code {
+    height: 6rem;
+}
+.code-lang {
+    height: 6rem;
+}

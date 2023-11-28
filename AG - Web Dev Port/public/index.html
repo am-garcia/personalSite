@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Garcia Dev Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="../assets/images/cloud.png" alt="cloud-img">
+        <h1>I'm Andy</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="../assets/images/cloud.png" alt="cloud-img">
+        <img class="mountain-img" src="../assets/images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="top-mid-container">
+        <div class="profile">
+            <img class="flat-icon-coder" src="../assets/images/coding.png" alt="coder" />
+            <img class="flat-icon-coffee" src="../assets/images/coffee.png" alt="coffee">
+            <h2>Hello World</h2>
+            <p>I am a Full-Stack Software Engineer.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <!-- <img class="code-lang" src="images/html-5.png" alt="html">
+                <img class="code-lang" src="images/css-3.png" alt="css">
+                <img class="code-lang" src="images/js-file.png" alt="javaScript"> -->
+                <img class="intro-code"
+                    src="https://js.devexpress.com/Content/Images/features/html5-css-javascript-logos.png"
+                    alt="html-css-js" />
+                <img class="code-lang p-2" src="../assets/images/react.png" alt="react">
+                <img class="code-lang p-2" src="../assets/images/sql-server.png" alt="sql">
+                <img class="code-lang p-2" src="../assets/images/c-sharp.png" alt="c-sharp">
+                <p>I utilize AGILE methodologies, git/github as source control and enjoy working in a team environment.
+                    I graduated from SABIO coding bootcamp in April 2023 but have been learning web development since
+                    2018 from sites such as free code academy/ Khan Academy and took on extra courses from Udemy.</p>
+
+            </div>
+            <h3>Projects</h3>
+            <h4><a
+                    href="file:///C:/Web%20Development%20Projects/AG%20-%20Web%20Dev%20Port/src/components/Gym-Check/index.html">Gym
+                    Check
+                </a></h4>
+            <img class="orange-county" src="" alt="">
+            <p>Gym Rating Site for Orange County, CA</p>
+            <p>Currently everything is built from HTML/CSS</p>
+
+            <p>My latest work is with Immersed Cyber Security where I was working on the front end side of things. I
+                created dynamic role based components which allowed the admin to view and approve stories/reviews
+                left by users of the site.</p>
+
+
+        </div>
+        <div class="contact-me bottom-mid-container">
+            <h2>Get In Touch</h2>
+            <h3>Don't hesitate to reach out!</h3>
+            <p>Besides coding I also provide personal training and am currently a bartender in Southern California so I
+                feel I am easy to get along/work with.</p>
+            <a class="btn" href="mailto:andy.c1fitness@gmail.com">CONTACT ME</a>
+        </div>
+        <hr>
+        <footer class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/andym-garcia/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/am_garcia_">Twitter</a>
+            <a class="footer-link" href="https://github.com/am-garcia">GitHub</a>
+            <footer>© Andy Garcia.</footer>
+        </footer>
+    </div>
+
+    <script>
+
+        // function startUp() {
+        //     console.log("I am starting my application");
+
+        //     let andy = new User("Andy");
+        //     //call newUser function newUser();
+        //     console.log(andy);
+        // }
+
+        // function newUser(uName) {
+        //     this.name = uName;
+        // }
+        // var newUser = {
+        //     fName: "",
+        //     lName: "",
+        //     email: "",
+        //     pWord: "",
+        // }
+
+        const date = new Date;
+        let hours = date.getHours();
+        let status = (hours < 12) ? "Morning" :
+            ((hours <= 18 && hours >= 12) ? "Afternoon" : "Evening");
+        console.log(status);
+    </script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Check</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.9fz26GTADpWatZ8BzwoqTAHaD8&pid=Api&P=0&h=220"
+            alt="picture of Equinox sports club" />
+        <img src="https://tse1.mm.bing.net/th?id=OIP.ZAnt8cAbFlwCKP8DXO-5UAHaE7&pid=Api&P=0&h=220"
+            alt="outdoor gym stations" />
+        <img src="https://tse4.mm.bing.net/th?id=OIP.jPUiKKoWlqnJKrNqXDAKBgHaEK&pid=Api&P=0&h=220"
+            alt="planet fitness" />
+
+        <h1>Welcome to Gym Check</h1>
+        <h2>What We're About</h2>
+        <p>We basically checkout local gyms, both public and private and give a rating on multiple factors.</p>
+        <ul>
+            <li>Equipment</li>
+            <li>Safety / Cleanliness</li>
+            <li>Staff</li>
+            <li>Amenities</li>
+            <li>Parking</li>
+        </ul>
+        <p>Don't see your gym here? Leave a message and we'll add it to the list of future reviews.</p>
+        <!-- <textarea></textarea>
+        <button type="submit">Submit</button> -->
+    </div>
+    <div class="container">
+        <button type="submit" class="btn-popup" onclick="openPopup()">Message</button>
+        <div class="popup" id="popup" href="mailto:andy.c1fitness@gmail.com">
+            <img src="tick.png" alt="">
+            <h2>Thank you!</h2>
+            <p>Your details have been successfully submitted. Thanks!</p>
+            <button type="button-popup" onClick="closePopup()">OK</button>
+        </div>
+    </div>
+    <footer class="bottom-container">
+        <a class="footer-link" href=""><strong>Hate the review? Please leave your concerns with someone who
+                cares!</strong></a>
+        <footer>© Gym Check</footer>
+    </footer>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+        // var customerMessage = prompt("Leave your message:");
+        // alert("message successful!");
+    </script>
+</body>
+
+</html>
